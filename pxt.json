@@ -1,0 +1,27 @@
+{
+    "name": "seuka",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "cutebot": "github:elecfreaks/pxt-cutebot#v6.0.1",
+        "bluetooth": "*",
+        "BitBot": "github:4tronix/BitBot#1.5.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
